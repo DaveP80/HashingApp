@@ -5,8 +5,7 @@ import com.logic.model.Account;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class AppMongo extends PasswordHashing {
-
+public class App extends PasswordHashing {
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) throws InterruptedException {
